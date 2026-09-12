@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yasin Karacan</title>
+<meta name="description" content="Yasin Karacan — PhD candidate in mathematics at UMass Amherst, working in symplectic and contact topology with Michael Sullivan.">
+
+<!-- Open Graph: helps link previews and indexing -->
+<meta property="og:title" content="Yasin Karacan">
+<meta property="og:description" content="PhD candidate in mathematics at UMass Amherst. Symplectic and contact topology, Legendrian contact homology.">
+<meta property="og:type" content="website">
+
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --muted:#666;
+    --rule:#d8d8d8;
+    --link:#0b4f8a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  body{
+    font-family: Georgia, "Times New Roman", serif;
+    font-size:16px;
+    line-height:1.65;
+    color:var(--ink);
+    background:#fff;
+    max-width:780px;
+    margin:0 auto;
+    padding:28px 22px 70px;
+  }
+
+  /* ---------- Header ---------- */
+  header h1{
+    font-size:1.85rem;
+    font-weight:normal;
+    letter-spacing:.01em;
+    margin-bottom:14px;
+  }
+
+  /* ---------- Nav ---------- */
+  nav{
+    border-top:1px solid var(--ink);
+    border-bottom:1px solid var(--ink);
+    padding:7px 0;
+    margin-bottom:26px;
+  }
+  nav button{
+    font-family:inherit;
+    font-size:.95rem;
+    background:none;
+    border:none;
+    color:var(--link);
+    cursor:pointer;
+    padding:2px 0;
+    margin-right:22px;
+  }
+  nav button:hover{text-decoration:underline}
+  nav button.active{
+    color:var(--ink);
+    font-weight:bold;
+    text-decoration:none;
+    cursor:default;
+  }
+
+  /* ---------- Panels ---------- */
+  .panel{display:none}
+  .panel.visible{display:block}
+
+  h2{
+    font-size:1.12rem;
+    font-weight:bold;
+    margin:26px 0 9px;
+  }
+  h2:first-child{margin-top:0}
+
+  p{margin-bottom:12px}
+  a{color:var(--link)}
+
+  ul{margin:0 0 14px 22px}
+  li{margin-bottom:6px}
+
+  .lead{font-size:1.02rem}
+
+  /* ---------- Updates list ---------- */
+  dl.updates{margin-bottom:14px}
+  dl.updates dt{
+    float:left;
+    width:118px;
+    clear:left;
+    color:var(--muted);
+    font-size:.9rem;
+    padding-top:2px;
+  }
+  dl.updates dd{
+    margin-left:118px;
+    margin-bottom:8px;
+  }
+
+  /* ---------- Course table ---------- */
+  table{border-collapse:collapse;margin:4px 0 16px;width:100%}
+  td{padding:4px 16px 4px 0;vertical-align:top;border-bottom:1px solid #eee}
+  tr:last-child td{border-bottom:none}
+  td.term{color:var(--muted);font-size:.92rem;white-space:nowrap;width:150px}
+
+  .note{color:var(--muted);font-size:.92rem;font-style:italic}
+
+  footer{
+    margin-top:40px;
+    padding-top:12px;
+    border-top:1px solid var(--rule);
+    color:var(--muted);
+    font-size:.85rem;
+  }
+
+  @media (max-width:520px){
+    dl.updates dt{float:none;width:auto}
+    dl.updates dd{margin-left:0;margin-bottom:12px}
+    nav button{margin-right:15px;font-size:.9rem}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Yasin Karacan</h1>
+</header>
+
+<nav>
+  <button class="active" data-panel="home">Home</button>
+  <button data-panel="research">Research</button>
+  <button data-panel="teaching">Teaching</button>
+  <button data-panel="outreach">Outreach</button>
+</nav>
+
+<!-- ============ HOME ============ -->
+<section id="home" class="panel visible">
+  <p class="lead">
+    I am a PhD candidate in mathematics at the University of Massachusetts Amherst.
+    My advisor is
+    <a href="https://people.math.umass.edu/~sullivan/">Michael Sullivan</a>.
+    I work in symplectic and contact topology, and I am interested in both the
+    flexible and the rigid sides of contact geometry.
+  </p>
+  <p>
+    I expect to defend my dissertation in May 2027 and I am on the academic job
+    market for positions beginning Fall 2027.
+  </p>
+
+  <h2>Updates</h2>
+  <dl class="updates">
+    <dt>April 2026</dt>
+    <dd>Received the Richard Ellis Memorial Scholarship.</dd>
+
+    <dt>March 2026</dt>
+    <dd>Attended <em>Contact geometry, general relativity, and thermodynamics</em>,
+        Simons Center for Geometry and Physics.</dd>
+
+    <dt>2025&ndash;2026</dt>
+    <dd>Organizing the Undergraduate Math Club.</dd>
+
+    <dt>May 2025</dt>
+    <dd>Attended <em>Symplectic topology from the K-theoretic viewpoint</em>,
+        Woods Hole.</dd>
+
+    <dt>April 2024</dt>
+    <dd>Received the Graduate Student Leadership Award for co-founding the
+        Directed Reading Program.</dd>
+  </dl>
+
+  <h2>Contact</h2>
+  <p>
+    Department of Mathematics and Statistics<br>
+    University of Massachusetts Amherst<br>
+    Amherst, MA 01003
+  </p>
+  <p>
+    <a href="mailto:ykaracan@umass.edu">ykaracan@umass.edu</a>
+  </p>
+</section>
+
+<!-- ============ RESEARCH ============ -->
+<section id="research" class="panel">
+  <h2>Research interests</h2>
+  <p>
+    Symplectic geometry, contact geometry, Floer theory, and Legendrian contact
+    homology.
+  </p>
+  <p>
+    My work concerns Legendrian submanifolds and the invariants that distinguish
+    them. Legendrian contact homology is built by counting holomorphic curves,
+    and it carries a great deal of information about a Legendrian that is
+    invisible to classical invariants. I am interested both in the algebraic
+    structure of these invariants and in what they say about the geometry and
+    topology of Legendrian knots and their front projections.
+  </p>
+
+  <h2>Preprints and work in progress</h2>
+  <ul>
+    <li><em>MCnF implies Augmentability</em> (in preparation)</li>
+    <!-- When the arXiv version is up, replace the line above with:
+    <li><em>MCnF implies Augmentability</em>,
+        <a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv:XXXX.XXXXX</a>, 2026.</li>
+    -->
+  </ul>
+
+  <h2>Talks</h2>
+  <ul>
+    <li><em>Spectral Invariants in Contact Geometry</em> &mdash;
+        Graduate Student Seminar, UMass Amherst, November 2022</li>
+    <li><em>Introduction to h-principles</em> &mdash;
+        Floer Homotopy Theory Seminar, UMass Amherst, April 2022</li>
+    <li><em>Persistent Homology</em> &mdash;
+        Graduate Student Seminar, Wesleyan University, March 2022</li>
+    <li><em>Morse Theory</em> &mdash;
+        Floer Homotopy Theory Seminar, UMass Amherst, February 2022</li>
+    <li><em>Poincar&eacute; Return Map and the Poincar&eacute;&ndash;Birkhoff Theorem</em> &mdash;
+        Student Geometry Seminar, UMass Amherst, May 2020</li>
+    <li><em>What is Contact Geometry?</em> &mdash;
+        Student Geometry Seminar, UMass Amherst, March 2020</li>
+    <li><em>Poincar&eacute;&ndash;Hopf Index Theorem and its Applications</em> &mdash;
+        UMass Math Club, February 2020</li>
+  </ul>
+
+  <h2>Selected conferences attended</h2>
+  <ul>
+    <li>Contact geometry, general relativity, and thermodynamics &mdash;
+        Simons Center for Geometry and Physics, 2026</li>
+    <li>Symplectic topology from the K-theoretic viewpoint &mdash;
+        Woods Hole, 2025</li>
+    <li>From smooth to C<sup>0</sup> symplectic geometry &mdash;
+        CIRM, Marseille, 2023</li>
+    <li>28th G&ouml;kova Geometry&ndash;Topology Conference &mdash; G&ouml;kova, 2023</li>
+    <li>AMS Sectional Meeting, Special Session on Lagrangian and Legendrian
+        Submanifolds &mdash; Amherst, 2022</li>
+    <li>Frontiers of Quantitative Symplectic and Contact Geometry &mdash;
+        Institut Mittag-Leffler, 2022</li>
+    <li>Symplectic Topology, Contact Topology and Interactions &mdash;
+        Institut Henri Poincar&eacute;, 2021</li>
+  </ul>
+</section>
+
+<!-- ============ TEACHING ============ -->
+<section id="teaching" class="panel">
+  <p>
+    I have taught at UMass Amherst since 2018. In April 2026 I received the
+    <strong>Richard Ellis Memorial Scholarship</strong>, awarded on a holistic
+    evaluation of teaching skills, care for the departmental community, and
+    contributions to student well-being.
+  </p>
+
+  <h2>Instructor of record</h2>
+  <table>
+    <tr><td>Calculus of One Variable I</td><td class="term">Spring 2026</td></tr>
+    <tr><td>Multivariable Calculus</td><td class="term">Fall 2025</td></tr>
+    <tr><td>Precalculus and Trigonometry</td><td class="term">Fall 2023</td></tr>
+    <tr><td>Calculus of One Variable II</td><td class="term">Spring 2023</td></tr>
+    <tr><td>Multivariable Calculus</td><td class="term">Summer 2019</td></tr>
+  </table>
+
+  <h2>Teaching assistant</h2>
+  <p>
+    Linear Algebra, Calculus of One Variable, Multivariable Calculus,
+    Precalculus and Trigonometry, and Fundamental Concepts of Mathematics
+    (2018&ndash;2026). Earlier, teaching assistant at Middle East Technical
+    University (2016&ndash;2018).
+  </p>
+
+  <h2>Mentoring</h2>
+  <ul>
+    <li><strong>Directed Reading Program, UMass Amherst</strong> &mdash;
+        co-founder and organizer (2023). The program pairs undergraduates with
+        graduate mentors for semester-long independent reading projects.</li>
+    <li><strong>REU mentor</strong> (Summer 2022) &mdash; mentee: Bingheng Yang,
+        on using Legendrian contact homology to study immersions.</li>
+    <li><strong>Directed Reading Program, Turkey</strong> &mdash; mentor
+        (Summer 2023).</li>
+    <li><strong>Topology Qualifying Exam Review Sessions</strong> &mdash;
+        led the topology review each summer, 2021&ndash;2023.</li>
+  </ul>
+
+  <p class="note">Course evaluations are available on request.</p>
+</section>
+
+<!-- ============ OUTREACH ============ -->
+<section id="outreach" class="panel">
+  <p>
+    I am the first person in my family to graduate from high school, and much of
+    my work outside the classroom is an attempt to make mathematics reachable for
+    students who arrive without anyone to tell them how any of it works.
+  </p>
+
+  <h2>Outreach and service</h2>
+  <ul>
+    <li><strong>Undergraduate Math Club</strong>, UMass Amherst &mdash;
+        organizer, 2025&ndash;2026.</li>
+    <li><strong><a href="https://www.ilkyar.org.tr">ILKYAR</a> Summer School</strong>,
+        Turkey &mdash; volunteer, summers 2017 and 2018. ILKYAR is a non-profit
+        that runs summer schools for middle-school students from low
+        socioeconomic backgrounds and connects them with mentors from academia.</li>
+    <li><strong>Summer Math Camp</strong> for middle-school students &mdash;
+        director, 2016.</li>
+    <li><strong>UMass Math Festival</strong> &mdash; Euler cycles and the
+        K&ouml;nigsberg bridge problem, 2022.</li>
+    <li><strong>&ldquo;The What Is&hellip;&rdquo; Graduate Student Seminar (TWIGS)</strong>
+        &mdash; organizer, 2022. A seminar series designed to help early graduate
+        students explore research areas.</li>
+    <li><strong>Mentoring Committee</strong>, UMass Amherst &mdash; co-organizer
+        and panelist for a graduate student panel on qualifying and oral exams,
+        choosing an advisor, and managing teaching alongside research (2022).</li>
+  </ul>
+</section>
+
+<footer>
+  Yasin Karacan &nbsp;&middot;&nbsp; Department of Mathematics and Statistics,
+  University of Massachusetts Amherst &nbsp;&middot;&nbsp;
+  <a href="mailto:ykaracan@umass.edu">ykaracan@umass.edu</a>
+</footer>
+
+<script>
+// Simple tab switching; also supports #anchors so links like .../#teaching work.
+(function () {
+  var buttons = document.querySelectorAll('nav button');
+  var panels  = document.querySelectorAll('.panel');
+
+  function show(name) {
+    panels.forEach(function (p) {
+      p.classList.toggle('visible', p.id === name);
+    });
+    buttons.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.panel === name);
+    });
+    window.scrollTo(0, 0);
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      show(b.dataset.panel);
+      history.replaceState(null, '', '#' + b.dataset.panel);
+    });
+  });
+
+  // Open the panel named in the URL hash, if there is one.
+  var hash = window.location.hash.replace('#', '');
+  if (hash && document.getElementById(hash)) { show(hash); }
+})();
+</script>
+
+</body>
+</html>
