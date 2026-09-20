@@ -110,6 +110,15 @@
 
   .lead{font-size:1.02rem}
 
+  /* ---------- Headshot ---------- */
+  .headshot{
+    float:right;
+    width:170px;
+    height:auto;
+    margin:4px 0 16px 26px;
+    border:1px solid var(--rule);
+  }
+
   /* ---------- Updates list ---------- */
   dl.updates{margin-bottom:14px}
   dl.updates dt{
@@ -142,6 +151,7 @@
   }
 
   @media (max-width:520px){
+    .headshot{float:none;display:block;width:150px;margin:0 auto 20px;}
     dl.updates dt{float:none;width:auto}
     dl.updates dd{margin-left:0;margin-bottom:12px}
     nav button{margin-right:15px;font-size:.9rem}
@@ -172,6 +182,8 @@
 
 <!-- ============ HOME ============ -->
 <section id="home" class="panel visible">
+  <!-- Photo: upload photo.jpg to the repository root, then uncomment the next line. -->
+  <!-- <img class="headshot" src="photo.jpg" alt="Yasin Karacan"> -->
   <p class="lead">
     I am a PhD candidate in mathematics at the University of Massachusetts Amherst.
     My advisor is
@@ -180,14 +192,14 @@
     flexible and the rigid sides of contact geometry.
   </p>
   <p>
-    I expect to defend my dissertation in May 2027 and I am on the academic job
-    market for positions beginning Fall 2027.
+    I expect to graduate in May 2027 and I am on the academic job market for
+    positions beginning Fall 2027.
   </p>
 
   <h2>Updates</h2>
   <dl class="updates">
     <dt>April 2026</dt>
-    <dd>Received the Richard Ellis Memorial Scholarship.</dd>
+    <dd>Received the <strong>Richard Ellis Memorial Scholarship</strong>.</dd>
 
     <dt>March 2026</dt>
     <dd>Attended <em>Contact geometry, general relativity, and thermodynamics</em>,
@@ -201,8 +213,8 @@
         Woods Hole.</dd>
 
     <dt>April 2024</dt>
-    <dd>Received the Graduate Student Leadership Award for co-founding the
-        Directed Reading Program.</dd>
+    <dd>Received the <strong>Graduate Student Leadership Award</strong> for
+        co-founding the Directed Reading Program.</dd>
   </dl>
 
   <h2>Contact</h2>
